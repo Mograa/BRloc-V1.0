@@ -1,0 +1,9 @@
+pip install colorama
+pip install requests
+pip install pprint
+pip install passwordgenerator
+pip install os
+pip install Faker
+pip install speedtest-cli
+pip install sys
+pip install socket
