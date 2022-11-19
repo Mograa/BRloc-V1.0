@@ -59,7 +59,7 @@ def req_ip():
     try:
         sleep(0.5)
         os.system('cls')
-        API_KEY = 'kBtOz67nfvQq8t8HN6fA'
+        API_KEY = ''
         ip_input = str(input(f'{color_1}IP{color_2}> '))
         req = requests.get(f'https://extreme-ip-lookup.com/json/{ip_input}?key={API_KEY}')
         req_json = req.json()
